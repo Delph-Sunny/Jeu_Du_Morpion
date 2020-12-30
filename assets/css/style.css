@@ -1,31 +1,44 @@
-.wrapper{
-  background: #000;
-  border-radius: 25px;
+body {
+  background-image: url('../images/snowflake5.gif');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-color: #afeffa;
 }
 
-.tic-box{
-    width: 5rem;
-    height: 5rem;
-   
+.wrapper {
+  background: #000;
+  border-radius: 25px;
+  width: 300px;
+  height: 300px;
+  display: table;
+}
+
+    
+
+
+.tic-box {    
     font-size: 5vw;
     background: #000;
     text-align: center;
-    color: lavender;
-  }
-  .tic-box:hover{
+    color: lavender;    
+}
+
+.tic-box:hover {
     background: #333535;
-  }
+}
 
-  #tic-1, #tic-2, #tic-3 {
+#tic-1, #tic-2, #tic-3 {
     border-bottom: solid white 5px;
-  }
+}
 
-  #tic-2, #tic-5, #tic-8 {
+#tic-2, #tic-5, #tic-8 {
     border-right: solid white 5px;
     border-left: solid white 5px;
-  }
+}
 
-  #tic-7, #tic-8, #tic-9 {
+#tic-7, #tic-8, #tic-9 {
     border-top: solid white 5px;
-  }
+}
 
