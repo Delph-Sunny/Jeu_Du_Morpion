@@ -18,8 +18,8 @@ body {
 .table td {
   border-top: none;
   vertical-align: inherit;
-  min-width: 33%;
-  min-height: 33%;
+  width: 33.33%;
+  height: 33.33%;
 }
 
 .tic-box {    
@@ -49,4 +49,3 @@ td:hover {
     border-top: solid white 5px;
     
 }
-
