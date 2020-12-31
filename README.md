@@ -13,6 +13,9 @@ This is a tentative project. The goal is to build a simple tic-tac-toe using a B
 
 ## Preview and Link
 
+![Jeu_Du_Morpion](/assets/images/preview.png)  
+
+Link to the app: [link]
 
 ## Credits
  
@@ -24,3 +27,4 @@ Icons made by Freepik from [www.flaticon.com](https://www.flaticon.com/)
 Copyright (c) 2020 DT. Everyone is permitted to use, copy, and modify verbatim copies of this document.
 
 ---
+[link]: https://delph-sunny.github.io/Jeu_Du_Morpion_v1.0/
