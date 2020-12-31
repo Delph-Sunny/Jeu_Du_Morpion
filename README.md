@@ -13,7 +13,7 @@ This is a tentative project. The goal is to build a simple tic-tac-toe using a B
 
 ## Preview and Link
 
-![Jeu_Du_Morpion](/assets/images/preview.png)  
+![Jeu_Du_Morpion](./assets/images/Preview.png)  
 
 Link to the app: [link]
 
