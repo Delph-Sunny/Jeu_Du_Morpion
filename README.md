@@ -9,7 +9,10 @@ IN PROGRESS
 
 ## Description 
 
-This is a tentative project. The goal is to build a simple tic-tac-toe. An animated background and some music will be part of this game.
+This is a tentative project. The goal is to build a simple tic-tac-toe using a Bootstrap table. A winter-theme animated background is part of this game.
+
+## Preview and Link
+
 
 ## Credits
  
