@@ -1,14 +1,23 @@
+/*Variables for color */
+:root {
+  --appbg:  #afeffa;
+  --textall: lavender;
+  --tbborder: white;
+  --hoverbg: #333535; 
+  --tbbg:  #000;
+}
+
 body {
   background-image: url('../images/snowflake5.gif');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
   background-position: center;
-  background-color: #afeffa;
+  background-color: var(--appbg);
 }
 
 .wrapper {
-  background: #000;
+  background: var(--tbbg);
   border-radius: 25px;
   width: 300px;
   height: 300px;
@@ -18,35 +27,31 @@ body {
 .table td {
   border-top: none;
   vertical-align: inherit;
-  min-width: 33%;
-  min-height: 33%;
+  width: 33.33%;
+  height: 33.33%;
 }
 
 .tic-box {    
-    font-size:2rem ;
-    background: #000;
-    text-align: center;
-    color: lavender;
-    height: 100%;    
+  font-size: 2rem ;
+  background: var(--tbbg);
+  text-align: center;
+  color: var(--textall);
+  height: 96%;    
 }
 
 td:hover {
-    background: #333535;
+  background:var(--hoverbg);
 }
 
 #tic-1, #tic-2, #tic-3 {
-    border-bottom: solid white 5px;
-   
+  border-bottom: solid var(--tbborder) 5px;   
 }
 
 #tic-2, #tic-5, #tic-8 {
-    border-right: solid white 5px;
-    border-left: solid white 5px;
-    
+  border-right: solid var(--tbborder) 5px;
+  border-left: solid var(--tbborder) 5px;    
 }
 
 #tic-7, #tic-8, #tic-9 {
-    border-top: solid white 5px;
-    
+  border-top: solid var(--tbborder) 5px;    
 }
-
